@@ -32,7 +32,7 @@ export default function VerticalItems({
               role="listitem"
             >
 
-              <div className={classes(['verticalitems__item-icon', _isVisited ? 'anim' : 'is-hidden'])}>
+              <div className={classes(['verticalitems__item-icon'])}>
 
                 <div className={classes([
                   'icon',
@@ -44,7 +44,7 @@ export default function VerticalItems({
                 </div>
 
               </div>
-              <div className={classes(['verticalitems__item__content', _isVisited ? 'anim' : 'is-hidden'])}>
+              <div className={classes(['verticalitems__item__content'])}>
 
                 {title && (
                   <div className='verticalitems__item__content-title'>
